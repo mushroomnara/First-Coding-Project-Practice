@@ -25,23 +25,24 @@ body {
 
 .card {
     background-color: #f2f1ed;
-    border-radius: 12px;
-    padding: 40px 32px;
+    border-radius: 8px;
+    border: solid 1px #eae8e2;
+    padding: 1rem;
     width: 320px;
     flex-shrink: 0;
 }
 
 .card-title {
-    font-size: 32px;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 400;
     color: #333;
     margin-bottom: 8px;
 }
 
 .card-price {
     font-size: 20px;
-    color: #666;
-    margin-bottom: 24px;
+    color: #7d7973;
+    margin-bottom: 1.25rem;
 }
 
 .card-content {
@@ -49,9 +50,9 @@ body {
 }
 
 .includes-text {
-    font-size: 16px;
-    color: #333;
-    margin-bottom: 16px;
+    font-size: 1rem;
+    color: #7d7973;
+    margin-bottom: 1.25rem;
 }
 
 .features-list {
@@ -69,22 +70,22 @@ body {
 
 .checkmark {
     color: #4a4a4a;
-    font-size: 18px;
+    font-size: 1rem;
     margin-right: 12px;
-    font-weight: bold;
+    font-weight: medium;
 }
 
 .download-button {
     width: fit-content;
     background-color: #e6e5e0;
-    border: none;
+    border: solid 1px #e1e0da;
     border-radius: 999px;
     padding: 14px 24px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
     color: #333;
     cursor: pointer;
-    transition: background-color 0.2s ease;
+    transition: background-color 0.3s ease;
 }
 
 .download-button:hover {
